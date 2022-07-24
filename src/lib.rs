@@ -5,6 +5,8 @@ mod modules;
 
 mod macros;
 
+mod primitives;
+
 pub fn test_lib() {
     println!("i am a lib");
 }
@@ -19,4 +21,8 @@ pub fn test_comments() {
 
 pub fn test_format_print() {
     my_print()
+}
+
+pub fn test_primitives() {
+    primitives::primitives();
 }

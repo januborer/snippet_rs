@@ -10,4 +10,6 @@ fn main() {
     println!("{:?}", myvec);
 
     test_format_print();
+
+    test_primitives();
 }
