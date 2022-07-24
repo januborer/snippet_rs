@@ -3,7 +3,7 @@
 #### Keywords
 `use`,`as`,`pub`,`mod`,`self`,`super`,`::`,`use ... as ...`,`pub use`--re-exporting
 
-#### concepts
+#### Concepts
 - `Packages`
 - `crate`:`binary crate`(one or more),`lib crate`(only one),`crate root`
 - `Pathes`:`create::parent::child`

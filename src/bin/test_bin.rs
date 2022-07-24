@@ -1,3 +1,5 @@
+use snippets::test_comments;
+
 fn main() {
-    println!("i am test_bin main");
+    test_comments()
 }
