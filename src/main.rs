@@ -18,12 +18,16 @@ fn main() {
     // test_format_print();
 
     // test_primitives();
-    //
-    test_struct();
-    //
-    //
-    test_enum();
 
-    test_constant();
-    println!("const:{}", LANGUAGE)
+    // test_struct();
+    //
+    //
+    // test_enum();
+
+    // test_constant();
+    // println!("const:{}", LANGUAGE);
+
+    types::test_types();
+
+    // custom_types::conversion::test_conversion();
 }

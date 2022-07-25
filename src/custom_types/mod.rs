@@ -2,6 +2,7 @@
 #![allow(dead_code)]
 
 pub mod constant;
+pub mod conversion;
 pub mod enumerate;
 pub mod linked_list;
 pub mod structure;

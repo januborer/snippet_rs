@@ -9,6 +9,9 @@ mod primitives;
 
 pub mod custom_types;
 
+pub mod types;
+pub mod variable_bindings;
+
 pub fn test_lib() {
     println!("i am a lib");
 }
