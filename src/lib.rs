@@ -7,6 +7,8 @@ mod macros;
 
 mod primitives;
 
+pub mod custom_types;
+
 pub fn test_lib() {
     println!("i am a lib");
 }
