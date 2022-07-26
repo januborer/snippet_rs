@@ -2,6 +2,7 @@ use snippets::{
     custom_types::{
         constant::test_constant, constant::LANGUAGE, enumerate::test_enum, structure::test_struct,
     },
+    flow_of_control::test_flow_of_control,
     *,
 };
 
@@ -30,4 +31,7 @@ fn main() {
     types::test_types();
 
     // custom_types::conversion::test_conversion();
+    //
+    //
+    test_flow_of_control();
 }
