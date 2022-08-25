@@ -10,6 +10,7 @@ mod primitives;
 pub mod custom_types;
 
 pub mod flow_of_control;
+pub mod functions;
 pub mod types;
 pub mod variable_bindings;
 

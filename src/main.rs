@@ -3,6 +3,7 @@ use snippets::{
         constant::test_constant, constant::LANGUAGE, enumerate::test_enum, structure::test_struct,
     },
     flow_of_control::test_flow_of_control,
+    functions::functional_programming::test_fn_pro,
     *,
 };
 
@@ -34,4 +35,6 @@ fn main() {
     //
     //
     test_flow_of_control();
+
+    test_fn_pro();
 }
